@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+Ep}Gi>$*t{	Basic	fged1-math	Matrix mult props	1. Associativity of matrix mult<br>\(A(BC) = (AB)C\)<br><br>2. Associativity of scalar mult wrt matrix mult<br>\(t(AB) = (tA)B = A(tB)\)<br><br>3. Distributivity of matrix add wrt matrix mult<br>\((A + B)C = AC + BC\)<br>\(A(B + C) = AB + AC\)<br><br>4. Transposition of matrix mult<br>\((AB)^T = B^T A^T\)	
+C)QosRbs,e	Basic	fged1-math	Matrix-vec mult as linear combination. Transforming coordinate system	A 3x3 matrix \(M\) can be represented as a matrix of 3 col vecs \(a, b, c\):<br>\(M = \begin{bmatrix} a & b & c \end{bmatrix}\)<br><br>Multiplied by a col vec \(v = (v_x, v_y, v_z)\), the result can be represented as a linear combination of \(M\)'s col vecs:<br>\(\begin{bmatrix}<br>M_{00} & M_{01} & M_{02} \\<br>M_{10} & M_{11} & M_{12} \\<br>M_{20} & M_{21} & M_{22} \\<br>\end{bmatrix} \begin{bmatrix}<br>v_x \\<br>v_y \\<br>v_z \\<br>\end{bmatrix} =\)<br>\(= \begin{bmatrix}<br>M_{00} v_x & M_{01} v_y & M_{02} v_z \\<br>M_{10} v_x & M_{11} v_y & M_{12} v_z \\<br>M_{20} v_x & M_{21} v_y & M_{22} v_z \\<br>\end{bmatrix} =\)<br>\(= v_x a + v_y b + v_z c\)<br><br>The result is a new vec transformed by the matrix. Substituting coordinate system vecs \(i, j, k\) for \(v\), we get the transformed coordinate system:<br>\(Mi = M (1, 0, 0) = a\)<br>\(Mj = M (0, 1, 0) = b\)<br>\(Mk = M (0, 0, 1) = c\)	
